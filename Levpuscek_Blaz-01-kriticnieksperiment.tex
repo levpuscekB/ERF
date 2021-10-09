@@ -1,0 +1,67 @@
+\DeclareUnicodeCharacter{2212}{-}
+\documentclass[a4paper,12pt]{article}
+\usepackage[slovene]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{amsfonts} 
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pagestyle{empty} 
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+
+\title{Kriitični eksperiment}
+\author{Blaž Levpušček}
+\date{11. 10. 2021}
+\maketitle
+
+
+
+\section{Teoretični uvod}
+Stanje reaktorja nam opisuje 
+pomnoževalni faktor $k$, ki nam 
+pove, za kolikokrat se spremeni
+število nevtronov v reaktorju iz 
+ene generacije v drugo. 
+Kadar je $k < 1$ je reaktor 
+podkritičen. Nevtronov je vedno 
+manj in če v njemu ni neodvisnega 
+izvora nevtronov se zaustavi. 
+Kadar je $k = 1$ je reaktor kritičen,
+število nevtronov in moč reaktorja sta 
+konstantna. 
+Kadar je $k > 1$ je reaktro nadkritičen, 
+moč reaktorja narašča. 
+\\
+Definiramo še reaktivnost $\rho = \frac{k - 1}{k}$.
+Merimo jo lahko v enotah pcm ($\rho[pcm] = \frac{k - 1}{k}\cdot 10^5$). 
+Lahko tudi v enotah $\$$ ($\rho[\$] = \frac{k - 1}{k \beta}$), 
+kjer je $\beta$ delež zakasnelih nevtronov.
+Za reaktor TRIGA ta znaša $\beta = 0,007000 \pm 0,000003$.
+
+
+\section{Eksperiment}
+
+
+\section{Meritve}
+
+\begin{tabular}{|c|c|}
+
+    \hline
+   t [s] & N \\
+   \hline
+   60 & 164\\
+  
+    \hline
+\end{tabular}
+
+\section{Analiza in rezultati}
+
+
+\section{Zaključek}
+
+
+\end{document}
